@@ -1,6 +1,6 @@
 const http = require("http");
 const Koa = require("koa");
-const koaBody = require("koa-body");
+const { koaBody } = require("koa-body");
 const slow = require("koa-slow");
 const { v4: uuidv4 } = require("uuid");
 const Router = require("koa-router");
